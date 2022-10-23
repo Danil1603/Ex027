@@ -12,7 +12,7 @@ var number = int.Parse(Console.ReadLine());
 var n = number;
 var summ = 0;
 
-while(n != 0)
+while(n > 0)
 {
     summ = summ + n % 10;
     n = n / 10;
