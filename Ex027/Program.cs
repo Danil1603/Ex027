@@ -18,5 +18,5 @@ while(n > 0)
     n = n / 10;
 }
 
-Console.WriteLine($"Сумма чисел - {summ}");
+Console.WriteLine($"Сумма цифр числа {number} - {summ}");
 
