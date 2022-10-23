@@ -14,11 +14,8 @@ var summ = 0;
 
 while(n != 0)
 {
-    if(n > 0) 
-    {
-        summ = (n / 1000) + (n / 100 % 10) + (n % 100 / 10) + (n % 10);
-        break;
-    }
+    summ = summ + n % 10;
+    n = n / 10;
 }
 
 Console.WriteLine($"Сумма чисел - {summ}");
